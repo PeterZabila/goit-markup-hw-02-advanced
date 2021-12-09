@@ -1,5 +1,11 @@
 header {
-    background-color: white;
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    padding: 24px 25px;
 }
 
 .title-main {
@@ -11,6 +17,8 @@ header {
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #2196F3;
+    margin-right: 93px;
+    padding-left: 215px;
 }
 
 .title {
@@ -22,4 +30,109 @@ header {
     /* identical to box height */
     letter-spacing: 0.03em;
     color: black;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 331px;
+}
+
+.nav-li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    display: inline;
+}
+
+.nav-li-stud {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    padding-right: 50px;
+}
+
+.nav-li-port {
+    padding-right: 50px;
+    color: black;
+}
+
+.nav-li-cont {
+    color: black;
+}
+
+.contacts {
+    display: inline;
+}
+
+.cont-mail {
+    padding-right: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.cont-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.hero {
+    background: #2F303A;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 200px;
+    
+}
+
+.main-hero {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 200px 452px 280px 452px;
+}
+
+/*
+.button {
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-top: 40px;
+    background:#2196F3;
 }
