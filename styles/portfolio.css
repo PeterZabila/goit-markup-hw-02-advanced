@@ -43,7 +43,7 @@
     display: inline-block;
 }
 
-.footer1 {
+.footer {
     position: absolute;
     width: 1600px;
     height: 252px;
@@ -52,12 +52,12 @@
     background: #2F303A;
 }
 
-.footer-logo1 {
+.footer-logo {
     position: absolute;
     width: 145px;
     height: 31px;
     left: 215px;
-    top: 1688px;
+    top: 60px;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -68,12 +68,23 @@
     color: #2196F3;
 }
 
+.footer-logo-style {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: white;
+}
+
 .footer-address {
     position: absolute;
     width: 231px;
     height: 21px;
     left: 215px;
-    top: 2208px;
+    top: 111px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -89,7 +100,7 @@
     width: 231px;
     height: 21px;
     left: 215px;
-    top: 2238px;
+    top: 141px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -105,7 +116,7 @@
     width: 231px;
     height: 21px;
     left: 215px;
-    top: 2268px;
+    top: 171px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -116,13 +127,3 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-logo-style {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    color: white;
-}
