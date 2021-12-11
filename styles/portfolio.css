@@ -1,0 +1,128 @@
+.portfolio {
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+
+}
+
+.port-nav-items {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.li-port {
+
+}
+
+.li-port-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.li-port-desciption {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.li-port9 {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer1 {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
+}
+
+.footer-logo1 {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 1688px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-address {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2238px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2268px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo-style {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: white;
+}

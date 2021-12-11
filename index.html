@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" >
     <title>Студия</title>
   </head>
 
   <body>
     <header>
       <!-- logo -->
-     
         <a class="title-main" href="./">Web<span class="title">Studio</span></a>
-     
-
       <!-- main nav -->
       <nav class="nav">
         <ul class="nav-ul">
@@ -25,7 +23,6 @@
           <li class="nav-li"><a class="nav-li-cont"href="">Контакты</a></li>
         </ul>
       </nav>
-
       <!-- contacts -->
       <div class="contacts">
         <a class="cont-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -37,36 +34,36 @@
       <!-- hero section -->
       <section class="hero">
         <h1 class="main-hero">Эффективные решения <br> для вашего бизнеса</h1>
-        <input class="button" type="button" value="Заказать услугу" />
+        <button class="button-order" type="button"><div class="button-text">Заказать услугу</div></button>
         <!-- <button>Заказать услугу</button> -->
       </section>
       <!-- activities section  -->
-      <section>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+      <section class="act">
+        <ul class="activities">
+          <li class="li-style">
+            <h3 class="act-detail">Внимание к деталям</h3>
+            <p class="act-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
+          <li class="li-style">
+            <h3 class="act-detail">Пунктуальность</h3>
+            <p class="act-description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
+          <li class="li-style">
+            <h3 class="act-detail">Планирование</h3>
+            <p class="act-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>
+          <li class="li-style">
+            <h3 class="act-detail">Современные технологии</h3>
+            <p class="act-description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -74,38 +71,47 @@
         </ul>
       </section>
       <!-- our team section  -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+      <section >
+        <h2 class="wwd-title">Чем мы занимаемся</h2>
+        <ul class="wwd-list">
+          <li class="wwd-item1"><img src="./images/wwd1.jpg" alt="wwdimg1"></li>
+          <li class="wwd-item2"><img src="./images/wwd2.jpg" alt="wwdimg2"></li>
+          <li class="wwd-item3"><img src="./images/wwd3.jpg" alt="wwdimg3"></li>
+        </ul>
+      </section>
+      
+      <section class="our-tema">
+        <h2 class="tema-title">Наша команда</h2>
+        <ul class="tema-items">
+          <li class="tema-item1">
             <img src="./images/1.jpg" width="270" alt="Product Designer" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="tema-member-name">Игорь Демьяненко</h3>
+            <p class="tema-member-position">Product Designer</p>
           </li>
-          <li>
+          <li class="tema-item2">
             <img src="./images/2.jpg" width="270" alt="Frontend Developer" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="tema-member-name">Ольга Репина</h3>
+            <p class="tema-member-position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="tema-item3">
             <img src="./images/3.jpg" width="270" alt="Marketing" />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="tema-member-name">Николай Тарасов</h3>
+            <p class="tema-member-position">Marketing</p>
           </li>
-          <li>
+          <li class="tema-item4">
             <img src="./images/4.jpg" width="270" alt="UI Designer" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="tema-member-name">Михаил Ермаков</h3>
+            <p class="tema-member-position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./">Web<span>Studio</span></a>
+    <footer class="foot">
+      <a class="footer-logo" href="./">Web<span class="footer-logo-style">Studio</span></a>
       <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+        <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
+        <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
       </address>
     </footer>
   </body>
