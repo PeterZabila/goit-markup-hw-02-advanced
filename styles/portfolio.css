@@ -13,7 +13,7 @@
 }
 
 .li-port {
-
+  
 }
 
 .li-port-title {
@@ -39,9 +39,15 @@
 }
 
 .li-port9 {
+     
     list-style-type: none;
     display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
+
+
 
 .footer {
     position: absolute;
@@ -126,4 +132,3 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
