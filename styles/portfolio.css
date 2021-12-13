@@ -19,7 +19,7 @@ hr {
     height: 1360px;
     left: 215px;
     top: 174px;
-    font: var(--base-font);
+    font-family: var(--base-font);
   }
   
   .port-nav-items {
@@ -28,8 +28,7 @@ hr {
   
   .port-nav-item {
     font: var(--base-font);
-    border-color: unset;
-    box-shadow: unset;
+    border-style: none;
   }
   
   .port-nav-item.all {
@@ -72,8 +71,6 @@ hr {
     color: #212121;
     background: #f5f4fa;
     border-radius: 4px;
-    margin-left: 4px;
-    margin-right: 4px;
   }
   
   .port-nav-item.web {
@@ -107,8 +104,6 @@ hr {
     left: 761px;
     top: 0;
   }
-  
- 
   
   .port-list {
     position: relative;
