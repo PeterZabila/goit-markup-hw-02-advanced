@@ -1,134 +1,221 @@
-.portfolio {
-    position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
+:root {
+  --base-color: #757575;
+  --title-base-color: #757575;
+  --base-font: Roboto;
+}
 
+.portfolio {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+  font: var(--base-font);
 }
 
 .port-nav-items {
-    list-style-type: none;
-    display: inline-flex;
+  list-style-type: none;
 }
 
+.port-nav-item {
+  font: var(--base-font);
+  border-color: unset;
+  box-shadow: unset;
+}
+
+.port-nav-item.all {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 280px;
+  top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  height: 38px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 4px;
+}
+
+.port-nav-item.web,
+.app,
+.design,
+.market {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  height: 38px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.port-nav-item.web {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 361px;
+  top: 0;
+}
+
+.port-nav-item.app {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 497px;
+  top: 0px;
+}
+
+.port-nav-item.design {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 650px;
+  top: 0px;
+}
+
+.port-nav-item.market {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 761px;
+  top: 0;
+}
+
+.port-list {
+  position: absolute;
+  top: 88px;
+  list-style-type: none;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
 .li-port {
-  
+  display: inline-block;
 }
 
-.li-port-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-    color: #212121;
+.port-list .li-port-title {
+  font-family: var(--base-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  text-indent: 24px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--base-color);
 }
 
 .li-port-desciption {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 187% */
-    letter-spacing: 0.03em;
-    color: #757575;
+  font-family: var(--base-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-indent: 24px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--base-color);
 }
 
-.li-port9 {
-     
-    list-style-type: none;
-    display: inline-block;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-}
-
-
-
-.footer {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-    background: #2F303A;
+.foot {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
 }
 
 .footer-logo {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 60px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    color: #2196F3;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 .footer-logo-style {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    color: white;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: white;
 }
 
 .footer-address {
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 111px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 111px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .footer-mail {
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 141px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 141px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel {
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 171px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 171px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
